@@ -9,7 +9,9 @@ st.set_page_config(page_title= "Download M&P", page_icon="🗂️")
 
 #INTRO
 st.title("Melhores e Piores")
-st.subheader("Aqui você pode baixar a base do melhores e piores por família!")
+st.header("Aqui você pode baixar a base do melhores e piores!")
+st.subheader("Escolha uma família")
+
 
 #DESABILITAR APÓS ESCOLHA
 #if "disabled" not in st.session_state:
