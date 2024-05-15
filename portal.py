@@ -20,7 +20,7 @@ st.subheader("Escolha uma família")
 #    st.session_state["disabled"] = True
 
 options = ["01 Lar", "02 Masculino", '03 Feminino', "04 Infantil", "05 Calçados", "10 Acessorios AV"]
-familia = st.radio("Escolha a sua família",
+familia = st.radio("",
                     options= options, 
                     index=None, 
                     on_change=None)
