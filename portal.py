@@ -9,15 +9,10 @@ st.set_page_config(page_title= "Download M&P", page_icon="🗂️")
 
 #INTRO
 st.title("Melhores e Piores")
+st.write(":red[Data de atualização:20/05/2024]")
 st.header("Aqui você pode baixar a base do melhores e piores!")
 st.subheader("Escolha uma família")
 
-
-#DESABILITAR APÓS ESCOLHA
-#if "disabled" not in st.session_state:
-#    st.session_state["disabled"] = False
-#def disable():
-#    st.session_state["disabled"] = True
 
 options = ["01 Lar", "02 Masculino", '03 Feminino', "04 Infantil", "05 Calçados", "10 Acessorios Av"]
 familia = st.radio("",
