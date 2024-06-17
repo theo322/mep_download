@@ -9,7 +9,7 @@ st.set_page_config(page_title= "Download M&P", page_icon="🗂️")
 
 #INTRO
 st.title("Melhores e Piores")
-st.write(":red[Data de atualização:10/06/2024]")
+st.write(":red[Data de atualização:17/06/2024]")
 st.header("Aqui você pode baixar a base do melhores e piores!")
 st.subheader("Escolha uma família")
 
