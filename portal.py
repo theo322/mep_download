@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import openpyxl
-df = pd.read_excel("data.xlsx",sheet_name="Export")
+df = pd.read_excel("data.xlsx",sheet_name="Export", engine = "openpyxl")
 
 pd.options.display.float_format = '{:,.2f}'.format
 
